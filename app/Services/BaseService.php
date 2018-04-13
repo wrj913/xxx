@@ -18,7 +18,7 @@ class BaseService
     public function strFilter($str)
     {
         $str = str_replace('`', '', $str);
-        $str = str_replace('·', '', $str);    
+        $str = str_replace('·', '', $str);
         $str = str_replace('~', '', $str);
         $str = str_replace('!', '', $str);
         $str = str_replace('！', '', $str);
